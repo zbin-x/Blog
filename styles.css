@@ -75,3 +75,56 @@ footer {
   background-color: #333;
   color: #fff;
 }
+/* Add new styles for the modal */
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: #fff;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Add responsive styles for smaller screens */
+
+@media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+
+  .search {
+    margin-top: 10px;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .products {
+    flex-direction: column;
+  }
+
+  .product {
+    width: 100%;
+  }
+}
