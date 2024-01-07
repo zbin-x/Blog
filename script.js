@@ -36,3 +36,27 @@ document.addEventListener('DOMContentLoaded', function () {
   nextButton.addEventListener('click', showNextImage);
   prevButton.addEventListener('click', showPrevImage);
 });
+// Update JavaScript to add modal functionality
+
+document.addEventListener('DOMContentLoaded', function () {
+  // ... (previous JavaScript code)
+
+  // Add event listener for modal button
+  const modalButton = document.getElementById('modal-button');
+  const modal = document.getElementById('modal');
+  const closeButton = document.getElementById('close-button');
+
+  modalButton.addEventListener('click', function () {
+    modal.style.display = 'block';
+  });
+
+  closeButton.addEventListener('click', function () {
+    modal.style.display = 'none';
+  });
+
+  window.addEventListener('click', function (event) {
+    if (event.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+});
