@@ -28,9 +28,20 @@ nav a {
   font-weight: bold;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
   width: 50px;
   vertical-align: middle;
+}
+
+.logo-text {
+  margin-left: 10px; /* 调整文字与 logo 之间的间距 */
+  color: #fff;
+  font-weight: bold;
 }
 
 .search input {
