@@ -16,7 +16,7 @@ header {
 .logo {
   display: flex;
   align-items: center;
-  positon: relative;
+  position: relative;
   left: 50%;
   transform: translate(-50%);
 }
