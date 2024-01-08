@@ -142,3 +142,14 @@ footer {
     width: 100%;
   }
 }
+
+.channel {
+  display: flex;
+  justify-content: space-around; /* 或者使用 space-between，space-evenly，根据需要选择 */
+}
+
+/* 设置按钮样式，如果需要的话 */
+.channel button {
+  /* 添加任何其他按钮样式 */
+  margin: 0; /* 可以去除按钮的默认外边距 */
+}
