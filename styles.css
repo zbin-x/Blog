@@ -18,6 +18,7 @@ nav ul {
   display: flex;
   position: relative;
   z-index: 1;
+  margin-right: -160px;
 }
 
 nav li {
