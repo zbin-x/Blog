@@ -60,14 +60,14 @@ nav a {
 
 .hero {
   text-align: center;
-  padding: 10px 0;
+  padding: 0;
   background-color: #f8f8f8;
 }
 
 .hero h2.headline {
   font-size: 56px;
-    line-height: 1.07143;
-    font-weight: 600;
+    line-height: 0.5;
+    font-weight: 500;
     letter-spacing: -.005em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
@@ -75,7 +75,7 @@ nav a {
 .hero h3.subhead {
     font-size: 28px;
     line-height: 1.10722;
-    font-weight: 400;
+    font-weight: 340;
     letter-spacing: .004em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     margin-top: 6px;
