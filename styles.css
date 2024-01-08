@@ -16,6 +16,8 @@ header {
 nav ul {
   list-style: none;
   display: flex;
+  position: relative;
+  z-index: 1;
 }
 
 nav li {
