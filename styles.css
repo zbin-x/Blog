@@ -71,28 +71,57 @@ header {
   font-size: 15px;
 }
 
+/* 共同的样式 */
 .hero {
   text-align: center;
-  padding: 0;
   background-color: #f8f8f8;
 }
 
 .hero h2.headline {
-  font-size: 56px;
-    line-height: 0.5;
-    font-weight: 500;
-    letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-weight: 500;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .hero h3.subhead {
+  font-weight: 340;
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  margin-top: 6px;
+}
+
+/* 桌面端样式 */
+@media (min-width: 768px) {
+  .hero {
+    padding: 20px; /* 适当的内边距 */
+  }
+
+  .hero h2.headline {
+    font-size: 56px;
+    line-height: 0.5;
+  }
+
+  .hero h3.subhead {
     font-size: 28px;
     line-height: 1.10722;
-    font-weight: 340;
-    letter-spacing: .004em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    margin-top: 6px;
+  }
 }
+
+/* 移动端样式 */
+@media (max-width: 767px) {
+  .hero {
+    padding: 10px; /* 适当的内边距 */
+  }
+
+  .hero h2.headline {
+    font-size: 36px; /* 适度调小字体大小 */
+    line-height: 1.5;
+  }
+
+  .hero h3.subhead {
+    font-size: 18px; /* 调小字体大小 */
+    line-height: 1.5;
+  }
+}
+
 
 
 .products {
