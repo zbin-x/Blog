@@ -51,6 +51,7 @@ nav a {
 
 .search input {
   padding: 8px;
+  font-size: 13px;
 }
 
 .search button {
@@ -59,6 +60,7 @@ nav a {
   padding: 8px 20px;
   border: none;
   cursor: pointer;
+  font-size: 15px;
 }
 
 .hero {
