@@ -253,20 +253,20 @@ footer {
 /* 移动端适配 */
 @media (max-width: 767px) {
   .channel {
-    flex-direction: row; /* 在小屏幕上水平排列 */
-    flex-wrap: wrap; /* 允许换行 */
-    justify-content: center; /* 水平居中 */
+    display: block; /* 在小屏幕上块级显示 */
+    text-align: center; /* 文字居中 */
     padding: 20px 0; /* 调整内边距 */
   }
 
   .channel button {
-    width: calc(50% - 10px); /* 计算按钮宽度，减去右边距 */
+    width: 48%; /* 计算按钮宽度，留出一些间隙 */
     margin-bottom: 20px; /* 添加底部边距 */
-    margin-right: 10px; /* 恢复右边距，使按钮之间有间隔 */
+    margin-right: 2%; /* 添加右边距，制造间隙 */
+    display: inline-block; /* 让按钮在同一行内显示 */
   }
 
   .channel button:last-child {
-    margin-right: 0; /* 最后一行最后一个按钮去除右边距 */
+    margin-right: 0; /* 最后一个按钮去除右边距 */
   }
 }
 
